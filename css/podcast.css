@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Josefin+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+    color: #f1f1f1;
+    overflow-x: hidden;
+}
+
+/* INITIAL COVER */
+.title-header{
+	background: url(../img/bg.jpg) no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 15%;
+	color: #a2e0dc;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.title-header h1{
+	font-size: 50px;
+}
+
+.title-header h4{
+	font-size: 25px;
+}
+
+/* MENU */
+
+.menu a{
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	color: #8914c4;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.menu a:hover{
+	opacity: 50%;
+}
+
+
+.menu ul{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	list-style: none;
+}
+
+
+.menu ul li{
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin: 2%;
+}
+
+.podList{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.epi{
+	margin-top: 2%;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.epi iframe{
+	margin-top: 4%;
+}
+
+footer{
+	background: #141414;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-top: 5%;
+}
+
+.credit{
+	margin-bottom: 2%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.final #final{
+	font-family: 'Josefin Sans', sans-serif;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	left: -1%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.contact{
+	width: 100%;
+	text-align: center;
+}
+
+.contact img{
+	margin: 2%;
+	width: 35px;
+	height: 35px;
+	transition: 0.5s;
+}
+
+.contact img:hover{
+	opacity: 50%;
+}
